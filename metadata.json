@@ -1,0 +1,7 @@
+{
+  "name": "Ramadan",
+  "description": "A modern, luxury Islamic web application for Ramadan featuring prayer times, Quran, fasting tracker, and AI assistant.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
