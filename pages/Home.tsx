@@ -40,7 +40,7 @@ const Home: React.FC = () => {
           <div className="animate-fade-in delay-100">
             <span className="inline-flex items-center gap-2 px-4 py-1.5 bg-gold-500/10 text-gold-300 rounded-full text-xs md:text-sm font-bold mb-6 border border-gold-500/20 backdrop-blur-md shadow-lg shadow-gold-900/20">
               <span className="w-1.5 h-1.5 rounded-full bg-gold-400 animate-pulse"></span>
-              رمضان 1446
+              رمضان 1447
             </span>
             <h1 className="text-4xl md:text-7xl lg:text-8xl font-serif font-bold text-white mb-6 drop-shadow-2xl leading-tight tracking-tight">
               أهلاً بـ <span className="text-transparent bg-clip-text bg-gradient-to-b from-gold-300 to-gold-600">شهر الخير</span>

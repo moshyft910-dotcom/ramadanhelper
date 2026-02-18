@@ -9,6 +9,7 @@ import Tracker from './pages/Tracker';
 import Stories from './pages/Stories';
 import Settings from './pages/Settings';
 import Login from './pages/Login';
+import DownloadPage from './pages/Download';
 import { LanguageProvider } from './contexts/LanguageContext';
 import { AuthProvider, useAuth } from './contexts/AuthContext';
 import { PrayerProvider } from './contexts/PrayerContext';
@@ -29,6 +30,7 @@ const MainApp: React.FC = () => {
         <Route path="/adhkar" element={<Adhkar />} />
         <Route path="/tracker" element={<Tracker />} />
         <Route path="/stories" element={<Stories />} />
+        <Route path="/download" element={<DownloadPage />} />
         <Route path="/settings" element={<Settings />} />
       </Routes>
     </Layout>
