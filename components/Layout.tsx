@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { 
   Home, BookOpen, Clock, Moon, CheckSquare, 
-  Coffee, Settings, Menu, X, LogOut, GripVertical, Download
+  Coffee, Settings, Menu, X, LogOut, GripVertical
 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useAuth } from '../contexts/AuthContext';
@@ -82,7 +82,6 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
     { path: '/adhkar', label: t('adhkar'), icon: Moon },
     { path: '/tracker', label: t('tracker'), icon: CheckSquare },
     { path: '/stories', label: t('stories'), icon: Coffee },
-    { path: '/download', label: t('download'), icon: Download },
     { path: '/settings', label: t('settings'), icon: Settings },
   ];
 
